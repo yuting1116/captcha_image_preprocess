@@ -1,5 +1,5 @@
 tic
-load('Mdl_Final.mat')
+load('Mdl_KNN3.mat')
 data = importdata('Train/labels.txt');
 img_nrs = data(:,1);
 true_labels = data(:,(2:end));

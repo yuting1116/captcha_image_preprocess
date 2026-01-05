@@ -2,7 +2,7 @@
 
 This repository contains a MATLAB-based pipeline for **Captcha image preprocessing and digit classification**. The goal is to segment individual digits from captcha images and classify them using machine learning methods (KNN and decision tree).
 
-![Result](figures/result.png)
+![Result](figure/result.png)
 
 
 ---
@@ -53,7 +53,7 @@ The pipeline consists of the following main steps:
 4.  **Segmentation and Optimization**
    Character segmentation combines **k-means clustering** to approximate character positions with **midline adjustment** based on branch points to refine boundaries. This approach handles overlapping characters and varying font sizes, improving segmentation accuracy. Figure below illustrates the adjusted cutting lines based on branch point.
 
-![Optimisation with branch point](figures/cuttingBoxAfter.png)
+![Optimisation with branch point](figure/cuttingBoxAfter.png)
 
 
 6. **Classification**  
